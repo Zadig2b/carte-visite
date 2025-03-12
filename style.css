@@ -52,8 +52,7 @@ header h2 {
 
 .about:hover,
 .motivations:hover,
-.profiles:hover,
-.projets:hover {
+.profiles:hover {
   transform: scale(1.02);
 }
 
@@ -89,14 +88,12 @@ h3 {
   gap: 8px;
 }
 
-.profiles a:hover,
-.projets a:hover {
+.profiles a:hover {
   color: #0056b3;
   transform: translateX(5px);
 }
 
-.profiles img,
-.projets img {
+.profiles img {
   width: 20px;
   height: 20px;
 }
@@ -160,10 +157,13 @@ h3 {
 .project-item .preview {
   width: 100%;
   max-width: 600px;
+  max-height: 600px;
   height: auto;
+  object-fit: contain; /* Ajuste l'image sans la couper */
   border-radius: 5px;
   margin-top: 10px;
 }
+
 
 /* Pied de page */
 footer {
