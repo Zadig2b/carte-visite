@@ -1,0 +1,176 @@
+/* Style global */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* En-tête */
+header {
+  background-color: #464343;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+header h2 {
+  margin: 0;
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+/* Section Avatar */
+.avatar img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #333;
+  margin-top: 15px;
+}
+
+/* Sections */
+.about,
+.motivations,
+.profiles,
+.projets {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.about:hover,
+.motivations:hover,
+.profiles:hover,
+.projets:hover {
+  transform: scale(1.02);
+}
+
+h3 {
+  color: #333;
+}
+
+/* Listes */
+.motivations ul,
+.profiles ul,
+.projets ul {
+  list-style: none;
+  padding: 0;
+}
+
+.motivations li,
+.profiles li,
+.projets li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Liens avec icônes */
+.profiles a,
+.projets a {
+  text-decoration: none;
+  color: #007bff;
+  transition: color 0.3s, transform 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.profiles a:hover,
+.projets a:hover {
+  color: #0056b3;
+  transform: translateX(5px);
+}
+
+.profiles img,
+.projets img {
+  width: 20px;
+  height: 20px;
+}
+
+/* Section Projets */
+.projets ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.projets li {
+  list-style: none;
+}
+
+/* Section Projets */
+.projets ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 0;
+}
+
+.projets li {
+  list-style: none;
+  width: 100%;
+  max-width: 650px;
+}
+
+/* Style des projets */
+.project-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, background-color 0.3s;
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.project-item:hover {
+  transform: scale(1.02);
+  background-color: #e0e0e0;
+}
+
+/* Style du texte */
+.project-item span {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Aperçu des projets */
+.project-item .preview {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+/* Pied de page */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #464343;
+  color: #fff;
+  font-size: 0.9em;
+}
